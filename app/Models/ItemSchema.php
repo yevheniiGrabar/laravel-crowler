@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class ItemSchema extends Model
 {
     use HasFactory;
+
+    protected $table = "item_schema";
 }
